@@ -62,6 +62,7 @@ namespace Spel__projekt2
                 Exit();
 
             // TODO: Add your update logic here
+            int coinstop = 480;
             _graphics.PreferredBackBufferWidth = 1280;
             _graphics.PreferredBackBufferHeight = 720;
             _graphics.ApplyChanges();
@@ -90,10 +91,7 @@ namespace Spel__projekt2
                 coinrec = new Rectangle(randomPlats, 25, 75, 75);
                 score++;
             }
-            else if (coinrec.Y == 480)
-            {
-
-            }
+       
 
            
             if(sonicrec.X > 1295)
